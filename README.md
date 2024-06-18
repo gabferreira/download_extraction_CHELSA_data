@@ -1,10 +1,10 @@
-# Download, preparação e extração de dados climáticos do CHELSA versao 2.1
+# Scripts para download, preparação e extração de dados climáticos do CHELSA versao 2.1 e construção de mapas de área de estudo
 
 ### Descrição
 
 <p align="justify">
 
-Scripts para fazer o download e preparação de dados climáticos (temperatura média, máxima, mínima e precipitacao) da base de dados CHELSA versão 2.1 (https://chelsa-climate.org/timeseries/) e extração de valores climáticos para uma tabela com coordenadas geográficas.
+Scripts para fazer o download e preparação de dados climáticos (temperatura média, máxima, mínima e precipitacao) da base de dados CHELSA versão 2.1 (https://chelsa-climate.org/timeseries/), extração de valores climáticos para uma tabela com coordenadas geográficas e construção de mapas de área de estudo.
 
 </p>
 
@@ -15,6 +15,7 @@ Todas os scripts sao construidos em [R language](https://www.r-project.org/) ver
 -   `1.download_variaveis_climaticas_chelsa`: download de variaveis climaticas
 -   `2.preparacao_variaveis_climaticas_chelsa`: corta para o brasil e converte os valores para graus celsius e milimetros de precipitação
 -   `3.extracao_variaveis_climaticas_pontos`: extrai as variaveis climaticas para pontos com coordenadas geográficas
+-   `4.mapa_area_estudo`: construção de um mapa de área de estudo
 
 ## data
 
